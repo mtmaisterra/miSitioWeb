@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logos/Logo 1.jpeg" type="image/x-icon">
+    <title>María Teresa Maisterra - Sitio Web Personal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <section class="cuerpo">
+        <br>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#acerca"><strong>Acerca de mí</strong></a></li>
+                    <li><a href="#titulos"><strong>Títulos</strong></a></li>
+                    <li><a href="#contacto"><strong>Contacto</strong></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="inicio">
+            <img class="mia" src="img/mujeres/mia 4.jpg" alt="">
+        </div>
+        <section id="acerca">
+            <h1 class="titulo">Acerca de mí</h1>
+            <div class="acerca">
+                <img class="imagen_acerca" src="img/mujeres/Imagen 12.jpeg" alt="imagen2">
+                <p class="texto">
+                    <br>
+                    Me llamo María Teresa Maisterra, tengo 48 años, nací el 26 de septiembre de 1975 en la provincia de
+                    Buenos
+                    Aires y actualmente vivo en San Pedro, Departamento Castro Barros, Provincia de La Rioja, República
+                    Argentina.
+                    <br><br>Soy profesora de <strong>Técnicas Informáticas Aplicadas a Computación</strong>. Estudie en
+                    el
+                    Instituto Superior del Profesorado "Dr. Joaquín V. González" de la Ciudad Autónoma de Buenos Aires.
+                    Egrese
+                    en diciembre de 2002.
+                    <br><br>En el año 2004 comence a desempeñarme como docente en el Departamento Castro Barros de la
+                    provincia
+                    de La Rioja.
+                    <br><br>Desde 2008 soy docente titular en el <strong> Colegio Provincial de Aminga</strong>, con
+                    orientación
+                    técnica en Industria de procesos y desde 2014 preceptora titular en el <strong>Colegio Provincial de
+                        Anjullón</strong>, con orientación en Bachiller en Turismo.
+                    <br>
+                    <br>
+                    Durante este año comence a estudiar programación a través del programa nacional Argentina Programa
+                    4.0, dictado por
+                    Egg. También realice diferentes cursos en CoderHouse y en Egg, entre otros.
+                </p>
+            </div>
+        </section>
+
+        <section id="titulos">
+            <h1 class="titulo">Títulos</h1>
+            <div class="cursos-general">
+                <h3 class="titulo">Terciario</h3>
+                <p class="titulo-terciario"><strong>P</strong>rofesora en <strong>T</strong>écnicas
+                    <strong>I</strong>nformáticas <strong>A</strong>plicadas a <strong>C</strong>omputación
+                </p>
+                <h3 class="titulo">Cursos</h3>
+                <div class="cursos">
+                    <img class="Desarrollo" src="imagesCursos/DesarrolloWeb.png" alt="curso1">
+                    <img class="Desarrollo" src="imagesCursos/Certificado de emprendedoras digitales.png" alt="curso2">
+                    <img class="Desarrollo" src="imagesCursos/Certificado de Programación Full Stack.png" alt="curso3">
+                    <img class="Desarrollo"
+                        src="imagesCursos/Cerfificado de creación de contenidos digitales interactivos.png"
+                        alt="curso4">
+        </section>
+        <section class="contacto" id="contacto">
+            <h1 class="titulo">Contacto</h1>
+            <!-- Contenido de la sección de contacto -->
+            <div class="contact">
+               <img class="logos-contact" src="img/logos/Logo email.jpg" alt="">
+                 
+                 <img class="logos-contact" src="img/logos/Logo Linkedln.jpg" alt="">
+               
+            </div> 
+            <div class="contact1">   
+                   <p>tmaisterra75@gmail.com</p> <p>          </p>
+          <p>linkedin.com/in/maria-teresa-maisterra-92642b82</p> 
+                </div>
+            <div class="form">
+            <h2>Escríbenos</h2>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="pepe@gmail.com" />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>Enviar</button>
+                </div>
+            </div>
+            </form>
+        </section>
+
+        <footer>
+            <!-- Contenido del pie de página, como enlaces a redes sociales y derechos de autor -->
+            <p class="texto_footer">Copyrigth &copy <span id="year"></span> - Derechos resevados a María Teresa
+                Maisterra.
+                <br>
+                <br>
+            </p>
+        </footer>
+    </section>
+</body>
+<script>
+    // Obtén el elemento del año por su ID
+    var yearElement = document.getElementById("year");
+
+    // Obtén el año actual
+    var currentYear = new Date().getFullYear();
+
+    // Establece el contenido del elemento al año actual
+    yearElement.textContent = currentYear;
+</script>
+
+</html>

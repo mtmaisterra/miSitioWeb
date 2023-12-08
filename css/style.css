@@ -1,0 +1,375 @@
+/* Estilos generales */
+body{
+    padding: 2px;
+    display: flexbox;
+}
+.cuerpo{
+    background-color: #ecd2b1;    
+    border-radius: 20px;
+    display: flexbox; 
+}
+
+/* Estilos de la navegación */
+nav{ 
+    margin: 12px;
+    color: black;
+    border: 2px solid blue;    
+ justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+}
+
+nav ul li, a {
+    color: black;
+    justify-content: space-between;
+    display: inline;
+    margin-right: 5%;   
+    font-size: 40px;
+    font-family: "gabriola";    
+    text-decoration: none;
+    :hover {
+        color: blue;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+}
+/*Estilo para mi imagen*/
+.inicio{
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+}
+.mia{
+    width: 30%;
+    display: flexbox;
+   justify-content: center;
+   border: 15px solid black;
+   border-radius: 25px;
+   box-shadow: 15px 20px green;
+}
+
+/*Estilo del acerca*/
+.titulo {
+    margin: 10px;
+    font-size: 150px;
+    color: black;
+    font-family: "gabriola";
+    text-align: center;
+    text-decoration: underline;
+}
+.acerca{
+    margin: 15px;
+    border: 3px red solid;
+    border-radius: 10px;
+    box-shadow: 6px 12px rgb(92, 2, 2);
+  
+}
+
+.imagen_acerca {  
+    float: left;
+    margin: 10px;
+    width: 28%;
+    height: 28%; 
+    padding: 20px;
+   border-radius: 60px;
+}
+
+.texto {   
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 30px;
+    text-align: justify;
+    margin: 20px;   
+}
+
+.Desarrollo{    
+    width: 28%;
+    height: 28%; 
+    padding: 30px;
+    text-align: center;
+    margin: 70px;
+    border: 4px solid black;   
+   border-radius: 60px;
+   display: inline-block;  
+   justify-content: space-between; 
+   box-shadow: 12px 12px rgb(104, 104, 212);
+}
+
+.texto-titulo{
+    font-size: 40px;
+    color: black;
+    font-family: "arial";
+    text-align: center;    
+}
+.titulo-terciario{
+    font-size: 60px;
+    text-align: center;
+}
+.cursos{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+}
+/*Estilos Contacto*/
+.contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logos-contact{    
+    width: 150px;
+    margin: 10px  240px;
+    padding: 10px;
+justify-content: center;
+text-align: center;
+box-shadow: 5px 10px blueviolet;
+border: 4px solid blue;   
+border-radius: 60px;
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+}
+.contact1 p{
+    display: flex;    
+text-align: center;
+justify-content: center;
+font-size: 30px;
+margin: 30px;
+margin-left: 20px;
+padding: 10px;
+}
+
+/*Estilo del footer*/
+.texto_footer{   
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+/*Estilos formulario*/
+.form{
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+color: #5d6063;
+    background-color: #eaedf0;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+}
+.form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+  
+  
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row button {
+      margin-left: 120px;
+    
+  
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row textarea {
+      width: 250px;
+    }
+
+  
+  /* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 50px;
+    }
+  
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .form-row input[type="text"] {
+      width: 250px;
+      height: initial;
+    }
+    .form-row label {
+      text-align: right;
+      width: 120px;
+      margin-top: 7px;
+      padding-right: 20px;
+    }
+  }
+
+/* Estilos de las secciones y otros elementos */
+/* ... Agrega estilos para otras secciones y elementos ... */
+
+@media(max-width: 768px){
+    .cuerpo{
+        background-color: #bbf5c3;    
+        border-radius: 10px;       
+    }
+    nav{ 
+        margin: 82px;
+        color: black;
+        border: 2px solid blue;    
+     justify-content: space-between;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 3px 7px;
+    }
+    
+    nav ul li, a {
+        color: black;
+        justify-content: space-between;
+        display: inline;
+        margin-right: 5%;   
+        font-size: 20px;
+        font-family: "gabriola";    
+        text-decoration: none;
+        :hover {
+            color: red;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+    }
+    
+    /*Estilo del acerca*/
+    .titulo {
+        font-size: 40px;
+        color: black;
+        font-family: "gabriola";
+        text-align: center;
+        text-decoration: underline;
+    }
+    .acerca{
+        border: 3px red solid;
+        border-radius: 10px;
+        box-shadow: 6px 12px rgb(92, 2, 2);
+        margin: 8px;
+    }
+    
+    .imagen_acerca {  
+        float: left;
+        width: 28%;
+        height: 28%; 
+        padding: 20px;
+       border-radius: 60px;
+    }
+    
+    .texto {     
+        font-size: 15px;
+        text-align: justify;
+        margin: 10px;  
+    
+    }
+    
+    /*Estilo del footer*/
+    .texto_footer{       
+        font-size: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .cursos-general{   
+       display: block;      
+    }
+    
+    .Desarrollo{
+        float: right;
+        width: 30%;   
+         
+    }
+}
